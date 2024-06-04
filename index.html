@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" ></link>
+
+    <!-- GOOGLE FONTS  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+  <!-- GOOGLE FONTS //  -->
+
+  <!-- ALERTIFY !  -->
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.14.0/build/alertify.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.14.0/build/css/alertify.min.css"/>
+  <!-- ALERTIFY ! // -->
+    </head>
+<body>
+    <div id="all-content">
+       
+        <div id="main-content">
+           
+            <div id="header-and-board-wrapper">
+            <!-- TOP HEADER  -->
+            <div id="header">
+                <h2 id="instruction">
+                   X turn 
+                </h2>
+            </div>
+            <!-- // TOP HEADER  -->
+
+            <!-- BOARD  -->
+            <div id="grid-container">
+                <div class="square" style="border-top: none; border-left: none;" value="1">
+                    <h3 class="square-content">
+                        
+                    </h3>
+                </div>
+                <div class="square" style="border-top: none;" value="2">
+                    <h3 class="square-content">
+                       
+                    </h3>
+                </div>
+                <div class="square" style="border-top: none; border-right: none;" value="3">
+                    <h3 class="square-content">
+                        
+                    </h3>
+                </div>
+
+                <!-- ROW 2   -->
+                
+                <div class="square" style=" border-left: none;" value="4">
+                    <h3 class="square-content">
+                        
+                    </h3>
+                </div>
+                <div class="square" value="5">
+                    <h3 class="square-content">
+                        
+                    </h3>
+                </div>
+                <div class="square" style=" border-right: none;" value="6">
+                    <h3 class="square-content">
+                    
+                    </h3>
+                </div>
+
+                <!-- ROW 3  -->
+               
+                <div class="square" style="border-bottom: none ; border-left: none;" value="7">
+                    <h3 class="square-content" >
+                       
+                    </h3>
+                </div>
+                <div class="square" style="border-bottom: none ;" value="8">
+                    <h3 class="square-content">
+                       
+                    </h3>
+                </div>
+                <div class="square" style="border-bottom: none ;border-right:none;" value="9">
+                    <h3 class="square-content">
+                    
+                    </h3>
+                </div>
+            </div>
+
+            <!-- // BOARD // -->
+            </div>
+            
+            <!-- FOOTER   -->
+                    <div id="footer">
+                        <button class="action-btn" id="reset-btn">
+                            reset 
+                        </button>
+                    </div>
+            <!-- // FOOTER  // -->
+        </div>
+
+    </div>
+</body>
+<script src="logic.js"></script>
+</html>
